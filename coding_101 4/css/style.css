@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,900&display=swap');
+
+body {
+background-color: #8EC4D5;
+color: white;
+font-size: 20px;
+font-family: "Montserrat", sans-serif;
+font-family: "Roboto", sans-serif;
+background-image: url(https://images.unsplash.com/photo-1568757055409-37185d4cf902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80);
+background-size: cover;
+background-position: center;
+}
+
+h1{
+  padding: 30px;
+  color: #D848F7;
+  background-color: pink;
+  border-style: dotted;
+  border-color: #48F7B7;
+  margin-bottom: 60px;
+text-align: center;
+text-transform: uppercase;
+font-family: "Montserrat", sans-serif;
+text-decoration:underline;
+letter-spacing: 2px;
+}
+
+h1:hover {
+  background-color: white;
+}
+
+h2{
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: pink;
+  font-style: italic;
+  font-size: 30px;
+}
+
+p{
+  text-align: center;
+  color: #24A878;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#first-list {
+  background-color: lime;
+}
+
+
+.mammals{
+  color: red;
+  font-weight: bold;
+}
+
+.birds{
+  color: blue;
+  font-style: italic;
+}
+
+.fish{
+  color: orange;
+  text-decoration: underline;
+}
+
+#first-list li{
+  display: block;
+  margin: 30px;
+}
+
+img{
+display:block;
+width: 600px;
+  margin: 0 auto;
+}
